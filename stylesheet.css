@@ -1,0 +1,102 @@
+.title{
+  color:#02ccba;
+}
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+header{
+  background-color:black;
+  height:90px;
+}
+li{
+  list-style:none;
+}
+.header-list a{
+  float:left;
+  padding:33px 20px;
+  color:orange;
+}
+.header-logo{
+  color:orange;
+  float:left;
+  padding:0px 25px
+}
+footer{
+  padding-left:40px;
+  padding-right:40px;
+}
+.contact-form h2{
+  border-bottom:1px solid black;
+}
+.contact-form input,textarea{
+  width:400px;
+}
+.contact-form type=submit{
+  background-color:blue;
+}
+.section-title{
+  background-color:red;
+  padding-left:20px;
+  opacity:0.5;
+}
+.contents-item{
+  padding:20px 20px
+}
+.contents-item h4{
+  border-bottom:0.5px solid black;
+  font-size:20px;
+  font-weight:bold;
+}
+img{
+  height:100px;
+  float;right;
+}
+.contents-item span{
+  background-color:black;
+  color:orange;
+}
+.contents-item p{
+  font-size:15px;
+  font-weight:bold;
+}
+.main{
+  background-color:rgb(255,147,30,0.9);
+}
+.share-form{
+  height:70px
+}
+.btn{
+  color:white;
+  display:inline-block;
+  opacity:0.8;
+  margin-top:30px;
+  box-shadow:0 7px green;
+}
+.btn:active{
+  box-shadow:none;
+  position:relative;
+  top:7px;
+  background-color:red;
+}
+.twitter{
+  background-color:#55acee;
+  margin-right:20px;
+}
+.facebook{
+  background-color:#3b5998;
+}
+.header-list a{
+  transition:all 0.5s;
+}
+.header-list a:hover{
+  background-color:white;
+}
+*{
+  box-sizing:border-box;
+}
+@media(max-width:670px){
+  footer{
+    text-align:center;
+  }
+}
